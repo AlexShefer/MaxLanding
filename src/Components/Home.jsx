@@ -1,5 +1,5 @@
-import { useContext, useState } from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { useContext } from "react";
+import { FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { LanguageContext } from "./LanguageContext";
@@ -46,7 +46,7 @@ export default Home;
 function SocialIco({ link, children, download }) {
     return (
         <div className="icon">
-            <a href={link} download={download} target="_blank" rel="noref">
+            <a href={link} download={download} target="_blank" rel="noreferrer">
                 {children}
             </a>
         </div>

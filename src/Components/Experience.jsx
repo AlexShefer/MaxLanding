@@ -3,7 +3,7 @@ import { content } from "../content";
 import { LanguageContext } from "./LanguageContext";
 
 function Experience() {
-    const { language, setLanguage } = useContext(LanguageContext);
+    const { language } = useContext(LanguageContext);
 
     return (
         <div name="experience" className="container education">

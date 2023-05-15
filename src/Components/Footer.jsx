@@ -1,20 +1,11 @@
-import { useState } from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-function SocialIco({ link, message, position, children, download }) {
-    const [isShow, setIsShow] = useState(false);
-
+function SocialIco({ link, children, download }) {
     return (
         <div className="relative mx-4">
-            <a
-                onMouseEnter={() => setIsShow(true)}
-                onMouseLeave={() => setIsShow(false)}
-                className="text-gray-300"
-                href={link}
-                download={download}
-            >
+            <a className="text-gray-300" href={link} download={download}>
                 {children}
             </a>
         </div>
