@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { content } from "../content";
+import { content } from "../data/content";
 import { LanguageContext } from "./LanguageContext";
 
 function Education() {

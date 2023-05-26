@@ -10,13 +10,45 @@ export const content = {
             "Собственный бизнес: руководство проектами, консультирование в сфере предпринимательства, полный цикл создания интерактивных развлекательных проектов. ",
         ],
         occupation: {
-            music: [
-                "Мои проекты: WaveMeUp (metagrunge), Paranoid Park (chaotic hardcore), raizdem (electronic), KAROSHI (deftones core), Однажды в Октябре (emo, pop-punk).",
+            music: {
+                myProjects: [
+                    {
+                        img: "projects/wavemeup.png",
+                        text: " WaveMeUp (metagrunge)",
+                        link: "https://www.youtube.com/watch?v=spCX6BueUvo",
+                    },
+                    {
+                        img: "projects/paranoid.png",
+                        text: "Paranoid Park (chaotic hardcore)",
+                        link: "https://www.youtube.com/watch?v=vRdtmslc_Xo",
+                    },
+                    {
+                        img: "projects/raisdem.png",
+                        text: "raizdem (electronic), KAROSHI (deftones core)",
+                        link: "https://www.youtube.com/watch?v=ymzJwEoTDP4",
+                    },
+                    {
+                        img: "projects/october.png",
+                        text: "Однажды в Октябре (emo, pop-punk).",
+                        link: "https://www.youtube.com/watch?v=UIMSESUqs5E",
+                    },
+                ],
 
-                "Исполняю музыку вживую, но часть проектов являются студийными. Делаю записи самостоятельно, стараюсь обучаться, работать над улучшением качества и повышением уровня собственных навыков в этом направлении.",
+                description:
+                    "Исполняю музыку вживую, но часть проектов являются студийными. Делаю записи самостоятельно, стараюсь обучаться, работать над улучшением качества и повышением уровня собственных навыков в этом направлении.",
 
-                "Подкаст «Голосовые норм?» https://music.yandex.ru/album/25333859 YouTube канал Dmitry More, с аудиторией более 100 000 человек https://www.youtube.com/@DmitryMore. ",
-            ],
+                podcast: [
+                    {
+                        name: "Подкаст «Голосовые норм?»",
+                        link: "https://music.yandex.ru/album/25333859",
+                    },
+
+                    {
+                        name: "YouTube канал Dmitry More, с аудиторией более 100 000 человек",
+                        link: "https://www.youtube.com/@DmitryMore. ",
+                    },
+                ],
+            },
             copywriting: [
                 "Работаю в проекте «Хэнговер», это видеоблог и паблик в социальных сетях с суммарной аудиторией 35 000 человек. Пишу тексты о выходящих релизах и на другие темы связанные с музыкой, литературой и кино. Кроме того, занимаюсь подборкой новостей и помощью с подготовкой сценариев для еженедельных подкастов. ",
                 "Пишу тексты для блога е-коммерс компании Azalia Now.",
@@ -41,13 +73,45 @@ export const content = {
             "Own business: Project management, entrepreneurial consultancy, full cycle of creating interactive entertainment projects.",
         ],
         occupation: {
-            music: [
-                "My projects: WaveMeUp (metagrunge), Paranoid Park (chaotic hardcore), raizdem (electronic), KAROSHI (deftones core), Once in October (emo, pop-punk).",
+            music: {
+                myProjects: [
+                    {
+                        img: "projects/wavemeup.png",
+                        text: "WaveMeUp (metagrunge)",
+                        link: "https://www.youtube.com/watch?v=spCX6BueUvo",
+                    },
+                    {
+                        img: "projects/paranoid.png",
+                        text: "Paranoid Park (chaotic hardcore)",
+                        link: "https://www.youtube.com/watch?v=vRdtmslc_Xo",
+                    },
+                    {
+                        img: "projects/raisdem.png",
+                        text: "raizdem (electronic), KAROSHI (deftones core)",
+                        link: "https://www.youtube.com/watch?v=ymzJwEoTDP4",
+                    },
+                    {
+                        img: "projects/october.png",
+                        text: "Однажды в Октябре (emo, pop-punk).",
+                        link: "https://www.youtube.com/watch?v=UIMSESUqs5E",
+                    },
+                ],
+                description:
+                    "I play music live, but some of the projects are studio. I make records by myself, try to study, work on improving quality and my own skills in that direction.",
 
-                "I play music live, but some of the projects are studio. I make records by myself, try to study, work on improving quality and my own skills in that direction.",
+                podcast: [
+                    {
+                        name: "The podcast 'Vocal Norms?'",
+                        link: "https://music.yandex.ru/album/25333859",
+                    },
 
-                "Non-music projects where my music has been used and in which I am involved: The podcast 'Vocal Norms?' Dmitry More's YouTube channel, with an audience of over 100,000 ",
-            ],
+                    {
+                        name: "Dmitry More's YouTube channel, with an audience of over 100,000 ",
+                        link: "https://www.youtube.com/@DmitryMore. ",
+                    },
+                ],
+            },
+
             copywriting: [
                 "I work in the Hangover project, which is a video blog and a social networking community with an aggregate audience of 35,000 people. I write texts about new releases and other subjects connected with music, literature and cinema. I also do newsgathering and help write scripts for weekly podcasts. ",
                 "I write texts for the Azalia Now e-commerce blog.",

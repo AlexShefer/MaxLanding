@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { content } from "../content";
+import { content } from "../data/content";
 import { LanguageContext } from "./LanguageContext";
 
 function Experience() {
@@ -11,8 +11,8 @@ function Experience() {
                 <h1>{language === "eng" ? "Experience" : "Опыт работы"}</h1>
 
                 <div>
-                    {content[language].experience.map((place) => (
-                        <p>{place}</p>
+                    {content[language].experience.map((place, i) => (
+                        <p key={i}>{place}</p>
                     ))}
                 </div>
             </div>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
     --main-text-color: #f8f9fa;
     --secondary-text-color: #dee2e6;
@@ -9,6 +11,7 @@ body {
     color: var(--main-text-color);
     background-color: var(--background-color);
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 li {
     list-style-type: none;
@@ -22,8 +25,45 @@ h1 {
 h2 {
     font-size: 24px;
 }
+
 p {
     font-size: 18px;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 100px auto 100px;
+}
+.article img {
+    max-width: 800px;
+    max-width: 100%;
+}
+.article h3 {
+    margin-right: auto;
+}
+.article a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: auto;
+    border: 2px solid var(--nav-background);
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px var(--secondary-text-color);
+}
+.article a:hover {
+    box-shadow: 0px 3px 6px black;
+}
+
+.grid-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+.grid-item a:hover {
+    color: var(--active-color);
 }
 
 .container {
@@ -42,7 +82,14 @@ p {
 }
 
 .icon {
-    margin: 40px 30px;
+    margin: 40px 20px;
+    padding: 5px;
+    border: 2px solid var(--nav-background);
+    box-shadow: 0px 3px 6px var(--secondary-text-color);
+    border-radius: 5px;
+}
+.icon:hover {
+    box-shadow: 0px 3px 6px black;
 }
 
 /* Education */
@@ -58,6 +105,20 @@ p {
     text-align: center;
 }
 
+.music-projects {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.music-projects img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.music-projects a:hover {
+    color: var(--active-color);
+}
+
 @media screen and (min-width: 640px) {
     .container {
         align-items: center;
@@ -65,7 +126,7 @@ p {
     .text-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
+        gap: 40px;
         align-items: start;
     }
 
@@ -85,11 +146,17 @@ p {
         font-size: 18px;
         text-align: left;
     }
+    .grid-item a {
+        font-size: 18px;
+    }
     .grid-container {
         max-width: 980px;
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 20px;
+    }
+    .article {
+        max-width: 800px;
     }
     .contact h1 {
         text-align: center;
@@ -102,7 +169,7 @@ p {
     .text-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
+        gap: 40px;
     }
     .text-grid h1 {
         margin-top: 20px;
@@ -119,10 +186,16 @@ p {
         font-size: 18px;
         text-align: left;
     }
+    .grid-item a {
+        font-size: 18px;
+    }
     .grid-container {
         max-width: 1024px;
 
         grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .article {
+        max-width: 800px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -133,7 +206,7 @@ p {
         max-width: 1024px;
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
+        gap: 40px;
     }
     .text-grid h1 {
         font-size: 40px;
@@ -148,6 +221,9 @@ p {
         max-width: 100%;
         font-size: 24px;
         text-align: left;
+    }
+    .grid-item a {
+        font-size: 18px;
     }
     .contact {
         max-width: 1024px;

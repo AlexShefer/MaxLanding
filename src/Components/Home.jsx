@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { LanguageContext } from "./LanguageContext";
-import { content } from "../content";
+import { content } from "../data/content";
 
 function Home() {
     const { language } = useContext(LanguageContext);

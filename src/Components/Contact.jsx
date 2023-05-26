@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { content } from "../content";
+import { content } from "../data/content";
 import { LanguageContext } from "./LanguageContext";
 
 function Contact() {
@@ -11,8 +11,8 @@ function Contact() {
                     {language === "eng" ? "Work with Me" : "Сотрудничество"}
                 </h1>
 
-                {content[language].contact.map((option) => (
-                    <p>{option}</p>
+                {content[language].contact.map((option, i) => (
+                    <h2 key={i}>{option}</h2>
                 ))}
             </div>
         </div>

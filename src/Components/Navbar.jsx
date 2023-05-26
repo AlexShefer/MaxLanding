@@ -1,6 +1,7 @@
 import { useState, useContext } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaHome } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import { MdLanguage } from "react-icons/md";
 import { LanguageContext } from "./LanguageContext";
 
@@ -23,9 +24,23 @@ const Navbar = () => {
     return (
         <div className="header">
             <nav className="navbar">
-                <div onClick={handleLanguage} className="language-switcher">
-                    <MdLanguage />
-                    <p>{language.toUpperCase()}</p>
+                <div className="corner">
+                    <div onClick={handleLanguage} className="language-switcher">
+                        <MdLanguage />
+                        <p>{language.toUpperCase()}</p>
+                    </div>
+                    <div>
+                        <NavLink
+                            to="/"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            onClick={closeMenu}
+                            offset={0}
+                        >
+                            {FaHome}
+                        </NavLink>
+                    </div>
                 </div>
 
                 <div className="hamburger" onClick={handleClick}>
