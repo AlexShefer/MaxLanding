@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
-import { FaBars, FaTimes, FaHome } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { NavLink } from "react-router-dom";
+
 import { MdLanguage } from "react-icons/md";
 import { LanguageContext } from "./LanguageContext";
 
