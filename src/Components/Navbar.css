@@ -20,8 +20,10 @@
     padding: 0 1rem;
 }
 
-.header .nav-menu {
+.header .nav-menu a {
     color: var(--main-text-color);
+    font-size: 18px;
+    text-decoration: none;
 }
 .logo {
     position: absolute;
@@ -61,14 +63,9 @@
     align-items: center;
     font-size: 30px;
 }
-.corner {
-    display: flex;
-    align-items: center;
-}
-.corner a {
+.home-icon {
     color: var(--main-text-color);
     font-size: 30px;
-    margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {

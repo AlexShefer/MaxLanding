@@ -13,7 +13,6 @@ function App() {
     return (
         <BrowserRouter>
             <LanguageContext.Provider value={{ language, setLanguage }}>
-                <Navbar />
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/articles" element={<Articles />} />

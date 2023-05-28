@@ -29,18 +29,6 @@ const Navbar = () => {
                         <MdLanguage />
                         <p>{language.toUpperCase()}</p>
                     </div>
-                    <div>
-                        <NavLink
-                            to="/"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            onClick={closeMenu}
-                            offset={0}
-                        >
-                            {FaHome}
-                        </NavLink>
-                    </div>
                 </div>
 
                 <div className="hamburger" onClick={handleClick}>

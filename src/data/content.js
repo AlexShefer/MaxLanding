@@ -13,12 +13,12 @@ export const content = {
             music: {
                 myProjects: [
                     {
-                        img: "projects/wavemeup.png",
+                        img: "projects/wavemeup.jpeg",
                         text: " WaveMeUp (metagrunge)",
                         link: "https://www.youtube.com/watch?v=spCX6BueUvo",
                     },
                     {
-                        img: "projects/paranoid.png",
+                        img: "projects/paranoid.jpg",
                         text: "Paranoid Park (chaotic hardcore)",
                         link: "https://www.youtube.com/watch?v=vRdtmslc_Xo",
                     },
@@ -28,7 +28,7 @@ export const content = {
                         link: "https://www.youtube.com/watch?v=ymzJwEoTDP4",
                     },
                     {
-                        img: "projects/october.png",
+                        img: "projects/october.jpeg",
                         text: "Однажды в Октябре (emo, pop-punk).",
                         link: "https://www.youtube.com/watch?v=UIMSESUqs5E",
                     },
@@ -76,12 +76,12 @@ export const content = {
             music: {
                 myProjects: [
                     {
-                        img: "projects/wavemeup.png",
+                        img: "projects/wavemeup.jpeg",
                         text: "WaveMeUp (metagrunge)",
                         link: "https://www.youtube.com/watch?v=spCX6BueUvo",
                     },
                     {
-                        img: "projects/paranoid.png",
+                        img: "projects/paranoid.jpg",
                         text: "Paranoid Park (chaotic hardcore)",
                         link: "https://www.youtube.com/watch?v=vRdtmslc_Xo",
                     },
@@ -91,7 +91,7 @@ export const content = {
                         link: "https://www.youtube.com/watch?v=ymzJwEoTDP4",
                     },
                     {
-                        img: "projects/october.png",
+                        img: "projects/october.jpeg",
                         text: "Однажды в Октябре (emo, pop-punk).",
                         link: "https://www.youtube.com/watch?v=UIMSESUqs5E",
                     },

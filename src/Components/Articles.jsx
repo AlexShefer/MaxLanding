@@ -4,9 +4,11 @@ import Recording from "./Recording";
 import Kane from "./Kane";
 import Lilies from "./Lilies";
 import Cotton from "./Cotton";
+import ArticalNav from "./ArticalNav";
 function Articles() {
     return (
         <div>
+            <ArticalNav />
             <Architecture />
             <Jazz />
             <Recording />

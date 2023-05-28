@@ -32,7 +32,7 @@ function Projects() {
                         )
                     )}
                 </div>
-                <div className="grid-item">
+                <div className="grid-item article">
                     <h2>
                         {language === "eng" ? "Copywriting" : "Копирайтинг"}
                     </h2>
@@ -42,7 +42,12 @@ function Projects() {
                             <p key={i}>{option}</p>
                         )
                     )}
-                    <NavLink to="/articles">articles</NavLink>
+
+                    <NavLink to="/articles">
+                        {language === "eng"
+                            ? "View the publications"
+                            : "Посмотреть публикации"}
+                    </NavLink>
                 </div>
                 <div className="grid-item">
                     <h2>
