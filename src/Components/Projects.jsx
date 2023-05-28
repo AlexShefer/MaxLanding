@@ -32,7 +32,7 @@ function Projects() {
                         )
                     )}
                 </div>
-                <div className="grid-item article">
+                <div className="grid-item article-link">
                     <h2>
                         {language === "eng" ? "Copywriting" : "Копирайтинг"}
                     </h2>
