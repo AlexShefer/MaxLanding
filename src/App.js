@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ScrollToTop from "./Components/ScrollToTop";
 import Main from "./pages/Main";
 
 import { LanguageContext } from "./Components/LanguageContext";
@@ -12,6 +12,7 @@ function App() {
 
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <LanguageContext.Provider value={{ language, setLanguage }}>
                 <Routes>
                     <Route path="/" element={<Main />} />

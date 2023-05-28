@@ -16,7 +16,11 @@ function Projects() {
                     {content[language].occupation.music.myProjects.map(
                         (option, i) => (
                             <div key={i} className="music-projects">
-                                <img src={option.img} alt={option.text} />
+                                <img
+                                    className="music-icon"
+                                    src={option.img}
+                                    alt={option.text}
+                                />
                                 <a href={option.link}>{option.text}</a>
                             </div>
                         )
