@@ -34,6 +34,7 @@ p {
 .home {
     background-image: url("assets/projects/head.jpg");
     background-size: cover;
+    background-position: center center;
 }
 .article {
     display: flex;
