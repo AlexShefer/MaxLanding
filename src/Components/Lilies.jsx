@@ -36,7 +36,7 @@ function Lilies() {
                 </p>
             )}
             <iframe
-                width={800}
+                width="100%"
                 height={315}
                 src="https://www.youtube.com/embed/hEMm7gxBYSc"
                 title="Where did you sleep last night"

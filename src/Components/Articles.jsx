@@ -14,7 +14,7 @@ function Articles() {
             <Recording />
             <Kane />
             <Lilies />
-            <Cotton />
+            {/* <Cotton /> */}
         </div>
     );
 }
